@@ -1,0 +1,28 @@
+@import './style/utils.scss';
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  cursor: none;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: $black;
+}
+
+h1 {
+    font-size: 30vh;
+    color: $green;
+    font-family: $font-digi;
+    letter-spacing: 1.5;
+    font-weight: 100;
+}

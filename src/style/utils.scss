@@ -1,0 +1,11 @@
+$black: #0d0d0d;
+$white: #f2f2f2;
+$green: #00FFCC;
+
+
+@font-face {
+  font-family: 'JamstreetGraffiti';
+  src: url('/fonts/JamstreetGraffiti.ttf') format('truetype');
+}
+
+$font-digi: 'JamstreetGraffiti', sans-serif;
